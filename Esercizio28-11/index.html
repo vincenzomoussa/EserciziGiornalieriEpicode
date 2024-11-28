@@ -8,9 +8,13 @@
       content="Primi passi operativi per creare un modello di pagina HTML per un post. Scopri come iniziare in modo facile."
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/font-awesome.css" />
     <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   <body>
+    <!--HEADER-->
     <header>
       <div>
         <img
@@ -19,29 +23,30 @@
           width="250"
           height="60"
         />
-        <p>Epicode - Il blog dei developers</p>
+        <p>Epicode - Il blog dei developers</i></p>
       </div>
       <nav>
         <ul>
-          <li><a href="index.html" title="Home Page">Home</a></li>
+          <li><a href="index.html" title="Home Page"><i class="fas fa-arrow-right"></i> Home <i class="fas fa-arrow-left"></i> </a></li>
           <li>
             <a
               href="articoli.html"
               title="Elenco degli articoli tecnici pubblicati"
-              >Articoli</a
+              ><i class="fas fa-arrow-right"></i> Articoli <i class="fas fa-arrow-left"></i></a
             >
           </li>
           <li>
-            <a href="contatti.html" title="Candidati inviando un tuo cv">Job</a>
+            <a href="contatti.html" title="Candidati inviando un tuo cv"></i><i class="fas fa-arrow-right"></i> Lavora con noi <i class="fas fa-arrow-left"></i></a>
           </li>
         </ul>
       </nav>
     </header>
     <hr />
+    <!--MAIN-->
     <main>
       <article>
         <h1>Come creare un template per i post</h1>
-        <p>di Mario Rossi - <span>pubblicato il 25-10-2020</span></p>
+        <p> <i class="fas fa-pen-square"></i>  di Mario Rossi - <span> <i class="fas fa-clock"></i> pubblicato il 25-10-2020</span></p>
         <p>
           La prima cosa da fare è suddividere in blocchi logici la pagina,
           identificando le <strong>parti comuni</strong> da applicare a tutte le
@@ -87,7 +92,7 @@
           <thead>
             <tr>
               <th>Anno</th>
-              <th>% di utilizzo</th>
+              <th id="bordi">% di utilizzo</th>
               <th>Supporto browsers</th>
             </tr>
           </thead>
@@ -119,6 +124,7 @@
             </tr>
           </tbody>
         </table>
+        <hr/>
         <p>
           Un test di validazione potrà essere fatto tramite il
           <a
@@ -157,6 +163,7 @@
         </section>
       </article>
     </main>
+    <!--ASIDE-->
     <aside>
       <h2>Articoli correlati</h2>
       <div>
@@ -190,6 +197,7 @@
       </div>
     </aside>
     <hr />
+    <!--FOOTER-->
     <footer>
       <p>Blog Epicode &copy;2023</p>
       <address>

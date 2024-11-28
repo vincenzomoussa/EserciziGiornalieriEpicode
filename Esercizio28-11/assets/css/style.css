@@ -1,0 +1,186 @@
+/* IMPOSTAZIONI GENERALI */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+        font-family: "Poppins", serif;
+        font-weight: 400;
+        font-style: normal;
+        background-image: url(../img/sfondo.png); 
+        background-repeat: repeat;
+        line-height: 25px;    }
+
+        hr  {
+            border: 0.1em solid blue;
+        }
+/* HEADER */
+header {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #039dbd;
+    margin: 1em 2.5em;
+    padding: 2em 0em;
+    font-size: 1.2em;
+    box-shadow: 2px 7px 13px 0px rgba(0,0,0,75);
+}
+
+
+header div p {
+    padding: 1.5em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+
+}
+/* MAIN */
+
+main {
+    margin: 1em 2.5em;
+    background-color: white;
+    box-shadow: 2px 7px 13px 0px rgba(0,0,0,75);
+    padding: 2em 3em 2em 2em;
+}
+
+main h1 {
+    font-weight: 600;
+    font-size: 1.5em;
+    padding: 0 5em 0 0;
+}
+ 
+main h1 + p {
+    color: grey;
+    letter-spacing: 1px;
+    padding: 1em 0;
+}
+
+main strong {
+    color: purple;
+    font-weight: bold;
+}
+
+main ul {
+    list-style-type: disc;
+    
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+article ul {
+    padding-top: 15px;
+    padding-left: 25px; 
+    padding-bottom: 15px;
+}
+
+article ol {
+    list-style: decimal;
+    padding-top: 15px;
+    padding-left: 25px; 
+    padding-bottom: 15px;
+}
+
+article code {
+    background-color: rgb(204, 189, 189);
+    border-radius: 5px;
+}
+
+article thead + tr {
+    height: 4vh;
+}
+/* TABELLE */
+
+caption {
+    font-style: italic;
+    font-weight: bold;
+}
+
+table {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+thead {
+    color: white;
+    background-color: blue;
+    height: 4em;
+}
+
+th {
+    text-align: center;
+    vertical-align: bottom;
+    padding: 15px;
+    letter-spacing: 1px;
+}
+
+#bordi {
+    border-left: 0.1em solid white;
+    border-right: 0.1em solid white;
+}
+
+tr {
+    height: 2.5em;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+tr:nth-child(even)  {
+    background-color: rgb(197, 189, 189);
+    border-top: solid grey;
+    border-bottom:solid grey;
+}
+
+iframe {
+    border-radius: 25px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* FORM */
+
+section {
+    background-color: rgb(214, 205, 205);
+    padding: 1em;
+}
+
+section h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 1.2em;
+}
+
+
+
+button {
+    background-color: rgb(76, 76, 240);
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+
+input {
+    border: none;
+    border-bottom: 0.8px;
+    border-bottom-style: dashed;
+    
+}
+
+form button {
+    padding: 5px;
+}
+
+form input {
+    padding: 5px;
+}
+
+form {
+    padding-top: 10px;
+}
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
