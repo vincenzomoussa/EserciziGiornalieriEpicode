@@ -95,4 +95,7 @@ console.log(x-4)
  console.log(name1 == name2)  otterremo true, perchè il valore delle due variabili è DIVERSO, visto che name2 comincia con la lettera maiuscola.
  Allo stesso modo, possiamo utilizzare gli operatori negativi di disuguaglianza e di non identità che funzionano allo stesso modo. != e !==, dove quello con un solo uguale andrà a verificare la disuguaglianza del solo valore, mentre quello con i due = andrà a verificare la disuguaglianza sia del valore che del tipo.
  console.log(name1 != name2)   true
+ Per verificare che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase, utilizziamo il seguente metodo:
+ console.log(name1 == name2 .toLowerCase()) - in questo caso, il metodo che andremo ad utilizzare è .toLowerCase()
  */
+
