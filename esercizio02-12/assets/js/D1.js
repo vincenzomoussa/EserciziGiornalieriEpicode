@@ -78,7 +78,7 @@ console.log(myName)   comparirà il valore cambiato, in Moussa
 Andiamo a dichiarare il valore della variabile X che dev'essere uguale a 12 in questo modo:
 let x = 12
 E poi andiamo a svolgere una normale operazione aritmetica tra i due valori:
-console.log(x-4)
+console.log(4-x)
 */
 
 /* ESERCIZIO 7
