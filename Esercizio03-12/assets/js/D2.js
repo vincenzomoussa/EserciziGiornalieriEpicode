@@ -267,3 +267,5 @@ console.log("Esercizio numero 15")
 
 myArray[9] = 100
 console.log(myArray)
+
+
