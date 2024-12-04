@@ -141,6 +141,14 @@ console.log("Esercizio numero 8")
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let test = 'Ciao'
+
+if (typeof test === 'number') {
+  console.log('è un numero!')
+} else {
+  console.log('non è un numero!')
+}
+
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
@@ -148,6 +156,14 @@ console.log("Esercizio numero 8")
 console.log("Esercizio numero 9")
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+let test2 = 31
+
+if (test2 % 2 === 0) {
+  console.log('è un numero pari!')
+} else {
+  console.log('è un numero dispari!')
+}
 
 
 /* ESERCIZIO 10
@@ -166,6 +182,14 @@ console.log("Esercizio numero 10")
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let val = 7
+if (val < 5) {
+  console.log('Meno di 5')
+} else if (val < 10) {
+  console.log('Meno di 10')
+} else {
+  console.log('Uguale a 10 o maggiore')
+}
 
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
@@ -181,6 +205,15 @@ console.log("Esercizio numero 11")
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+const me2 = {
+  name: 'John',
+  lastName: 'Doe',
+  skills: ['javascript', 'html', 'css'],
+}
+
+me.city = 'Toronto'
+console.log(me2)
+
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
@@ -188,6 +221,9 @@ console.log("Esercizio numero 11")
 console.log("Esercizio numero 12")
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+delete me.lastName
+console.log(me)
 
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
@@ -197,6 +233,9 @@ console.log("Esercizio numero 13")
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+me.skills.pop()
+console.log(me)
+
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
@@ -205,6 +244,19 @@ console.log("Esercizio numero 14")
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let myArray = []
+myArray.push(1)
+myArray.push(2)
+myArray.push(3)
+myArray.push(4)
+myArray.push(5)
+myArray.push(6)
+myArray.push(7)
+myArray.push(8)
+myArray.push(9)
+myArray.push(10)
+console.log(myArray)
+
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
@@ -212,3 +264,6 @@ console.log("Esercizio numero 14")
 console.log("Esercizio numero 15")
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+myArray[9] = 100
+console.log(myArray)
