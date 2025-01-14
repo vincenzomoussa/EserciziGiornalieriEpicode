@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;
+    align-items: center;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/originals/ff/5f/83/ff5f832e40cf3ec7787d1c539bf02ce7.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+input {
+    border-radius: 10px;
+}
+
+button 
+{
+    border-radius: 10px;
+}
